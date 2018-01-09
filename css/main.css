@@ -145,28 +145,16 @@ svg {
   color: #999;
 }
 
-.i-brain {
-  background-image: url("../images/logo-brain.svg");
+.i-paw {
+  background-image: url("../images/logo-paw.svg");
 }
 
-.i-strike {
-  background-image: url("../images/logo-strike.svg");
+.i-heart {
+  background-image: url("../images/logo-heart.svg");
 }
 
-.i-facebook {
-  background-image: url("../images/badge-facebook.svg");
-}
-
-.i-insta {
-  background-image: url("../images/badge-insta.svg");
-}
-
-.i-twitter {
-  background-image: url("../images/badge-twitter.svg");
-}
-
-.i-testimonial {
-  background-image: url("../images/icon-testimonial.svg");
+.i-man {
+  background-image: url("../images/icon-man.svg");
 }
 
 @media only screen and (min-width: 38em) {
