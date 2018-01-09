@@ -1,4 +1,4 @@
-html, nav p {
+html {
   font-family: Montserrat, sans-serif;
   color: white;
 }
@@ -28,6 +28,11 @@ p {
   font-family: serif;
 }
 
+nav p {
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+
 img {
   border-radius: 8px;
 }
@@ -53,11 +58,6 @@ img {
 .btn {
   background-color: black;
   border-color: black;
-}
-
-.btn:hover, .home-card:hover h2 {
-  background: #666;
-  border-color: #666;
 }
 
 .btn-thin {
@@ -90,9 +90,14 @@ img {
   background-color: black;
 }
 
-.home-card p, .tour-card p{
+.home-card p, .tour-card p {
   color: black;
   font-family: serif;
+}
+
+.btn:hover, .home-card:hover h2 {
+  background: #666;
+  border-color: #666;
 }
 
 input, textarea {
@@ -126,6 +131,18 @@ tbody th {
 
 footer {
   background-color: black;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.icon-link {
+  color: white;
+}
+
+.icon-link:hover, .icon-link:focus {
+  color: #999;
 }
 
 .i-brain {
