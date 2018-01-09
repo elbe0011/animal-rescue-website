@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300.9 354.4" style="enable-background:new 0 0 300.9 354.4;" xml:space="preserve">
-<title>Asset 1</title>
-<title>Asset 1</title>
-<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -98.7334 79.1065)" cx="46.1" cy="158.7" rx="34.2" ry="40.1"/>
-<ellipse transform="matrix(0.9392 -0.3434 0.3434 0.9392 -22.0994 40.271)" cx="102.6" cy="82.5" rx="40.1" ry="51.5"/>
-<ellipse transform="matrix(0.2242 -0.9745 0.9745 0.2242 73.4047 257.2611)" cx="198.3" cy="82.5" rx="51.5" ry="40.1"/>
-<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -37.6115 226.6679)" cx="254.8" cy="158.7" rx="40.1" ry="34.2"/>
-<path d="M108.2,173.6l-54.8,94.8c-18.8,32.5,4.7,73.1,42.2,73.1h109.5c37.5,0,61-40.6,42.2-73.1l-54.8-94.8
-	C173.9,141.1,127,141.1,108.2,173.6z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300.9 354.4" width="300.9" height="354.4"><ellipse cx="46.1" cy="158.7" rx="34.2" ry="40.1" transform="rotate(-45.001 46.122 158.736)"/><ellipse cx="102.6" cy="82.5" rx="40.1" ry="51.5" transform="rotate(-20.082 102.66 82.53)"/><ellipse cx="198.3" cy="82.5" rx="51.5" ry="40.1" transform="rotate(-77.044 198.295 82.529)"/><ellipse cx="254.8" cy="158.7" rx="40.1" ry="34.2" transform="rotate(-45.001 254.806 158.739)"/><path d="M108.2 173.6l-54.8 94.8c-18.8 32.5 4.7 73.1 42.2 73.1h109.5c37.5 0 61-40.6 42.2-73.1l-54.8-94.8c-18.6-32.5-65.5-32.5-84.3 0z"/></svg>
