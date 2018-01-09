@@ -14,10 +14,12 @@ html {
 .logo-text {
   text-decoration: none;
   color: white;
+  transition: all .35s ease-in-out;
 }
 
-.logo-text:hover {
+.logo-text:hover, .logo-text:focus {
   color: #999;
+  transform: scale(1.03);
 }
 
 h2 {
@@ -58,15 +60,18 @@ img {
 .btn {
   background-color: black;
   border-color: black;
+  transition: all .35s ease-in-out;
 }
 
 .btn-thin {
   padding: .1em;
+  transition: all .35s ease-in-out;
 }
 
 .btn-light {
   background-color: white;
   border-color: white;
+  transition: all .35s ease-in-out;
 }
 
 .img-bot {
@@ -79,6 +84,7 @@ img {
 
 .home-card {
   background-color: white;
+  transition: all .35s ease-in-out;
 }
 
 .tour-card {
@@ -88,16 +94,26 @@ img {
 .home-card h2, .tour-card h2 {
   color: white;
   background-color: black;
+  transition: all .35s ease-in-out;
 }
 
 .home-card p, .tour-card p {
   color: black;
   font-family: serif;
+  transition: all .35s ease-in-out;
 }
 
-.btn:hover, .home-card:hover h2 {
+.home-card:hover h2, .home-card:focus h2{
   background: #666;
   border-color: #666;
+}
+
+.btn:hover, .btn:focus {
+  transform: scale(1.03);
+}
+
+.home-card:hover, .home-card:focus{
+  transform: scale(1.03);
 }
 
 form a {
