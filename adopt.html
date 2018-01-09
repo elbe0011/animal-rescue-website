@@ -31,8 +31,17 @@
     </nav>
   </header>
   <main role="main" id="main" tabindex="0">
-    <div class="text-center">
-      <h1 class="yotta push-2 gutter-2 pad-t-1-2">Fill in this application to<br>ADOPT!</h1>
+    <div class="banner wrapper island">
+      <div class="banner-inside relative">
+        <div class="embed embed-16by9">
+          <div class="embed-item">
+            <img class="img-flex" src="images/form-banner.jpg" alt="Kitten and Puppy cuddling">
+          </div>
+        </div>
+        <div class="absolute pin-bottom-center text-center w-1 island transparent">
+          <h1 class="yotta push pad-t-1-2 normal">Fill in this application to<br>ADOPT!</h1>
+        </div>
+      </div>
     </div>
     <section class="signup-section transparent pad-b">
       <form class="" action="https://formspree.io/elbe0011@algonquinlive.com" method="POST">
@@ -41,8 +50,12 @@
           <img class="wrapper push-0 img-bot hidden" src="images/background.jpg" alt="">
           <div class="grid">
             <div class="unit [ xs-1 s-1 m-1 l-1 ]">
+              <label class="push-1-2" for="animal"><a href="rescues.html">Who do you want to Adopt?</a></label>
+              <input class="push" name="animal" id="animal" required>
+            </div>
+            <div class="unit [ xs-1 s-1 m-1 l-1 ]">
               <label class="push-1-2" for="name-f">Full Name</label>
-              <input class="push" name="name-f" id="name-f">
+              <input class="push" name="name-f" id="name-f" required>
             </div>
             <div class="unit [ xs-1 s-1 m-1 l-1 ]">
               <label class="push-1-2" for="name-l">Full Name of Partner</label>
@@ -59,7 +72,8 @@
             <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
               <label class="push-1-2" for="address">Address</label>
               <input class="push" name="address" id="address">
-            </div><div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
               <label class="push-1-2" for="city">City</label>
               <input class="push" name="city" id="city">
             </div>
@@ -89,7 +103,7 @@
             </div>
             <div class="unit [ xs-1 s-1 m-1 l-1 ]">
               <label class="push-1-2" for="refs">References</label>
-              <textarea class="push" id="refs" name="refs"></textarea>
+              <textarea class="push" id="refs" name="refs" required></textarea>
             </div>
           </div>
         </div>
@@ -112,13 +126,13 @@
       <ul class="list-group-inline push-0">
         <li>
           <a class="icon-link" href="#">
-            <p class="hidden">Link to Facebook</p>
+            <span class="hidden">Link to Facebook</span>
             <i class="icon i-64 i-facebook"></i>
           </a>
         </li>
         <li>
           <a class="icon-link" href="#">
-            <p class="hidden">Link to Instagram</p>
+            <span class="hidden">Link to Instagram</span>
             <i class="icon i-64 i-insta"></i>
           </a>
         </li>
