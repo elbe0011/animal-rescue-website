@@ -8,11 +8,11 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,900|PT+Serif:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body class="background-all">
   <header class="island" role="banner">
-    <nav class="nav clearfix text-center" role="nav" id="nav">
+    <nav class="nav clearfix text-center" role="navigation" id="nav">
       <a href="index.html" class="logo-text left push-0 w-1 bolder zetta">Big Sky Ranch</a>
       <ul class="nav-list list-group-inline right push-0 w-1">
         <li class="island-1-4"><a class="btn btn-light milli" href="index.html">Home</a></li>
@@ -24,24 +24,35 @@
   </header>
   <main>
     <div class="text-center">
-      <h1 class="yotta push-2 gutter-2">Fill in this application to<br>ADOPT!</h1>
+      <h1 class="yotta push-2 gutter-2 pad-t-1-2">Fill in this application to<br>ADOPT!</h1>
     </div>
-    <section class="signup-section">
+    <section class="signup-section transparent pad-b">
       <form class="" action="https://formspree.io/elbe0011@algonquinlive.com" method="POST">
         <div class="max-length island">
-          <h2>Sign up below</h2>
+          <h2 class="normal">Sign up below</h2>
           <img class="wrapper push-0 img-bot hidden" src="images/background.jpg" alt="">
           <div class="grid">
             <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-              <label class="push-1-2" for="name-f">First name</label>
+              <label class="push-1-2" for="name-f">Full Name</label>
               <input class="push" name="name-f" id="name-f">
             </div>
             <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-              <label class="push-1-2" for="name-l">Last name</label>
+              <label class="push-1-2" for="name-l">Full Name of Partner</label>
               <input class="push" name="name-l" id="name-l">
             </div>
             <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-              <label class="push-1-2" for="user">Username</label>
+              <label class="push-1-2" for="address">Address</label>
+              <input class="push" name="address" id="address">
+            </div><div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="city">City</label>
+              <input class="push" name="city" id="city">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="province">Province</label>
+              <input class="push" name="province" id="province">
+            </div>
+            <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+              <label class="push-1-2" for="user">Postal Code</label>
               <input class="push" name="user" id="user">
             </div>
             <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ]">

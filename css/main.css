@@ -20,6 +20,10 @@ html, nav p {
   color: #999;
 }
 
+h2 {
+  border-radius: 8px;
+}
+
 p {
   font-family: "PT Serif", serif;
   font-weight: normal;
@@ -29,12 +33,26 @@ p {
   font-weight: 900;
 }
 
-.banner-inside {
-  min-height: 15rem;
+img {
+  border-radius: 8px;
+}
+
+.black {
+  color: black;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .banner-inside {
+  min-height: 15rem;
   background-color: black;
+  border-radius: 8px;
+}
+
+.link-box {
+  border-radius: 8px;
 }
 
 .btn {
@@ -66,55 +84,21 @@ p {
 
 .home-card {
   background-color: white;
-  border: solid 3px black;
 }
 
 .tour-card {
   background-color: white;
 }
 
-.pricing-card {
-  background-color: white;
-  border: solid 3px black;
-  max-width: 25rem;
-  margin: 0 auto;
-}
-
-.pricing-card .media-body {
-  min-width: 0;
-}
-
-.home-card h2, .tour-card h2, .pricing-card h2 {
+.home-card h2, .tour-card h2 {
   color: white;
   background-color: black;
 }
 
-.home-card p, .tour-card p, .pricing-card p, .pricing-card ul {
+.home-card p, .tour-card p{
   color: black;
   font-family: "PT Serif", serif;
   font-weight: normal;
-}
-
-.pricing-card:hover {
-  background-color: #ccc;
-}
-
-.pricing-card:hover .btn {
-  background-color: #666;
-  border-color: #666;
-}
-
-.unlimited-power {
-  color: black;
-  height: 7.5rem;
-}
-
-.table-header {
-  background-color: black;
-}
-
-.table-wrapper {
-  background-color: rgba(255, 255, 255, .3);
 }
 
 tbody tr:nth-child(odd) {
