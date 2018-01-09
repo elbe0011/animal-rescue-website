@@ -25,12 +25,7 @@ h2 {
 }
 
 p {
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-}
-
-.bolder {
-  font-weight: 900;
+  font-family: serif;
 }
 
 img {
@@ -97,8 +92,11 @@ img {
 
 .home-card p, .tour-card p{
   color: black;
-  font-family: "PT Serif", serif;
-  font-weight: normal;
+  font-family: serif;
+}
+
+input, textarea {
+  color: black;
 }
 
 tbody tr:nth-child(odd) {
@@ -106,7 +104,6 @@ tbody tr:nth-child(odd) {
 }
 
 thead th {
-  font-weight: normal;
   color: black;
 }
 
@@ -116,8 +113,7 @@ tbody {
 
 tbody th {
   color: black;
-  font-family: "PT Serif", serif;
-  font-weight: normal;
+  font-family: serif;
 }
 
 .feature {
