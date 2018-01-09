@@ -3,24 +3,8 @@ html, nav p {
   color: white;
 }
 
-.tour-background {
-  background-image: url("../images/background-tour.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-.signup-background {
-  background-image: url("../images/background-signup.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-.pricing-background {
-  background-image: url("../images/background-pricing.jpg");
+.background-all {
+  background-image: url("../images/background.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -45,16 +29,11 @@ p {
   font-weight: 900;
 }
 
-header {
-  background-color: black;
+.banner-inside {
+  min-height: 15rem;
 }
 
-.tour-header {
-  background: none;
-}
-
-.banner {
-  min-height: 20rem;
+.banner-inside {
   background-color: black;
 }
 
@@ -85,17 +64,13 @@ header {
   width: 10em;
 }
 
-.cards {
-  background-color: black;
-}
-
 .home-card {
   background-color: white;
   border: solid 3px black;
 }
 
 .tour-card {
-  background-color: rgba(255, 255, 255, .5);
+  background-color: white;
 }
 
 .pricing-card {

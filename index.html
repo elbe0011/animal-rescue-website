@@ -10,7 +10,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,900|PT+Serif:400,400i,700,700i" rel="stylesheet">
 </head>
-<body>
+<body class="background-all">
 
   <ul class="skip-links" tabindex="0">
     <li><a href="#main">Jump to main content</a></li>
@@ -21,30 +21,32 @@
     <nav class="nav clearfix text-center" role="nav" id="nav">
       <a href="index.html" class="logo-text left push-0 w-1 bolder zetta">Big Sky Ranch</a>
       <ul class="nav-list list-group-inline right push-0 w-1">
-        <li><a class="btn btn-light btn-thin milli" href="rescues.html">Rescues</a></li>
-        <li><a class="btn btn-light btn-thin milli" href="adopt.html">Adopt</a></li>
-        <li><a class="btn btn-light btn-thin milli" href="#">Sponsor</a></li>
+        <li class="island-1-4"><a class="btn btn-light milli" href="index.html">Home</a></li>
+        <li class="island-1-4"><a class="btn btn-light milli" href="rescues.html">Rescues</a></li>
+        <li class="island-1-4"><a class="btn btn-light milli" href="adopt.html">Adopt</a></li>
+        <li class="island-1-4"><a class="btn btn-light milli" href="#">Sponsor</a></li>
       </ul>
     </nav>
   </header>
   <main role="main" id="main">
-    <div class="banner relative">
-      <div class="absolute pin-center text-center">
-        <h1 class="yotta push-1-2">Welcome</h1>
-        <p class="push-2">To Our Big Barn of Love!</p>
-        <a class="btn btn-light btn-banner tera text-center" href="sign-up.html">Share the Love, <span class="bolder">ADOPT!</span></a>
-      </div>
-      <img class="img-flex" src="images/background-index.jpg" alt="">
-      <div class="embed embed 16by9">
-        <div class="embed-item">
-          <img class="img-flex" src="images/background-index.jpg" alt="">
+    <div class="banner wrapper island">
+      <div class="banner-inside relative">
+        <div class="embed embed-16by9">
+          <div class="embed-item">
+            <img class="img-flex" src="images/adopt-banner.jpg" alt="">
+          </div>
+        </div>
+        <div class="absolute pin-center text-center">
+          <h1 class="yotta push-1-2">Welcome</h1>
+          <p class="push-2">To Our Big Barn of Love!</p>
+          <a class="btn btn-light btn-banner tera text-center" href="adopt.html">Share the Love, <span class="bolder">ADOPT!</span></a>
         </div>
       </div>
     </div>
-    <section class="cards">
-      <div class="grid max-length">
-        <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ]">
-          <a class="link-box text-center home-card" href="tour.html">
+    <section class="cards push island">
+      <div class="grid grid-stretch max-length">
+        <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] island-1-4 unit-content-distribute">
+          <a class="link-box text-center home-card content-fill" href="tour.html">
             <h2 class="push-0 island-1-2">Animals</h2>
             <div class="media">
               <div class="media-img media-img-stacked pad-t-1-2">
@@ -56,8 +58,8 @@
             </div>
           </a>
         </div>
-        <div class="unit [ xs-1 s-1-2 ]">
-          <a class="link-box text-center home-card" href="pricing.html">
+        <div class="unit [ xs-1 s-1-2 ] island-1-4 unit-content-distribute">
+          <a class="link-box text-center home-card content-fill" href="pricing.html">
             <h2 class="push-0 island-1-2">Adopting</h2>
             <div class="media">
               <div class="media-img media-img-stacked pad-t-1-2">
@@ -73,32 +75,34 @@
     </section>
   </main>
   <footer class="gutter-1-2 pad-t-1-2 pad-b-1-2 clearfix" role="contentinfo">
-    <div class="left">
-      <div class="footer-button island-1-4">
-        <a class="btn btn-light btn-thin micro" href="#">About</a>
+    <div class="wrapper">
+      <div class="left">
+        <div class="footer-button island-1-4">
+          <a class="btn btn-light btn-thin micro" href="#">About</a>
+        </div>
+        <div class="footer-button island-1-4">
+          <a class="btn btn-light btn-thin micro" href="#">Contact</a>
+        </div>
       </div>
-      <div class="footer-button island-1-4">
-        <a class="btn btn-light btn-thin micro" href="#">Contact</a>
+      <div class="right">
+        <ul class="list-group-inline push-0">
+          <li>
+            <a class="icon-link" href="#">
+              <i class="icon i-64 i-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="icon-link" href="#">
+              <i class="icon i-64 i-insta"></i>
+            </a>
+          </li>
+          <li>
+            <a class="icon-link" href="#">
+              <i class="icon i-64 i-twitter"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="right">
-      <ul class="list-group-inline push-0">
-        <li>
-          <a class="icon-link" href="#">
-            <i class="icon i-64 i-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon-link" href="#">
-            <i class="icon i-64 i-insta"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon-link" href="#">
-            <i class="icon i-64 i-twitter"></i>
-          </a>
-        </li>
-      </ul>
     </div>
   </footer>
 
