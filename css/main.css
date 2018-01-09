@@ -103,7 +103,7 @@ img {
   transition: all .35s ease-in-out;
 }
 
-.home-card:hover h2, .home-card:focus h2{
+.home-card:hover h2, .home-card:focus h2 {
   background: #666;
   border-color: #666;
 }
@@ -112,7 +112,7 @@ img {
   transform: scale(1.03);
 }
 
-.home-card:hover, .home-card:focus{
+.home-card:hover, .home-card:focus {
   transform: scale(1.03);
 }
 
