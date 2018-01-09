@@ -64,13 +64,12 @@ header {
   border-color: black;
 }
 
-.btn:hover {
+.btn:hover, .home-card:hover h2 {
   background: #666;
   border-color: #666;
 }
 
 .btn-thin {
-  width: 5em;
   padding: .1em;
 }
 
@@ -84,7 +83,7 @@ header {
 }
 
 .btn-banner {
-  width: 7em;
+  width: 10em;
 }
 
 .cards {
